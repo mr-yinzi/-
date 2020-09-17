@@ -1,0 +1,30 @@
+.ipt{
+    width: 5.5rem;
+    margin: 0.2rem auto;
+    border: 0.01rem solid #999;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    background: #fff;
+}
+.ipt img{
+    width: 0.5rem;
+    background: #fff;
+    margin: 0 0.2rem;
+}
+.ipt input{
+    width: 4.5rem;
+    font-size: 0.3rem;
+    background: #fff;
+    height: 0.8rem;
+}
+.searchbox{
+    margin: 0.8rem 0.2rem;
+}
+.searchbox .searchHot{
+    display: inline-block;
+    padding: 0.2rem;
+    font-size: 0.35rem;
+    border: 0.01rem solid #999;
+    border-radius: 0.4rem;
+    margin: 0.2rem;
+}

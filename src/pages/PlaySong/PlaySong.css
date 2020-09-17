@@ -1,0 +1,119 @@
+.playsongWrap{
+    background-color: #7F7F7F;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.back{
+    height: 1rem;
+    color: #000;
+    line-height: 1rem;
+    font-size: 0.4rem;
+    padding-left: 0.3rem;
+    color: #fff;
+} 
+.playbox{
+    width: 5.4rem;
+    height: 5.4rem;
+    margin:0.5rem auto;
+    background-color: #fff;
+    border: 0.01rem solid #7F7F7F;
+    border-radius: 2.7rem;
+    background: url("../../assets/img/disc-ip6.png") ;
+    background-size:cover;
+}
+.run{
+    animation:turn 8s linear infinite;    
+}
+.playimg{
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 1.7rem;
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+}
+.imgNeedle{
+    left: 3.2rem;
+    width: 2rem;
+    height: 2.8rem;
+    position: absolute;
+    background: url("../../assets/img/needle-ip6.png") ;
+    background-size:100%;
+    transform:rotate(-15deg);
+    transform-origin:left top;
+    z-index: 5;
+    transition: all 0.3s;
+}
+.imgNeedle1{
+    top: 0rem;
+    left: 3.2rem;
+    width: 2rem;
+    height: 2.8rem;
+    position: absolute;
+    background: url("../../assets/img/needle-ip6.png") ;
+    background-size:100%;
+    transform-origin:left top;
+    z-index: 5;
+    transition: all 0.3s;
+}
+.playimg img{
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 1.7rem;
+}
+.playnow{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 1.1rem;
+    left: 1.1rem;
+    background: url("../../assets/img/list_sprite.png") ;
+    background-size:100%;
+}
+.playnow1{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 1.1rem;
+    left: 1.1rem;
+    background: url("../../assets/img/list_sprite.png") 0 -1.25rem;
+    background-size:100%;
+}
+
+@keyframes turn{
+    0%{-webkit-transform:rotate(0deg);}
+    25%{-webkit-transform:rotate(90deg);}
+    50%{-webkit-transform:rotate(180deg);}
+    75%{-webkit-transform:rotate(270deg);}
+    100%{-webkit-transform:rotate(360deg);}
+  }
+
+
+
+.songwordsWrap{
+    height:4.2rem;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    margin:0 1rem;
+}
+.songwordsInner{
+    height: auto;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    width: 100%;
+    top: 1.8rem;
+    transition: all 0.2s;
+}
+.item{
+    font-size: 0.35rem;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.select{
+    color: greenyellow;
+    font-weight: bold;
+}
